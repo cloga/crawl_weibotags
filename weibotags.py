@@ -2,7 +2,7 @@
 import urllib2
 import json
 access_token ="2.00Hk5I5B3mz1gE5d178ada323SS3HB"  # 输入Token，类似2.00Hk5I5B3mz1gE5d178ada323SS3HB
-with open('../ids.csv') as f:
+with open('./ids.csv') as f:
     content=f.read()
 ##print content
 ids=content.split('\n')[:-1]
